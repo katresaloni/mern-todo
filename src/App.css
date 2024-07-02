@@ -39,51 +39,48 @@
 
 
 
- body {
+  body {
+
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color:black;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   height: 100vh;
 }
 
-.container {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 400px;
-}
 
 h1 {
   text-align: center;
-  color: #333;
+  font-size: 4rem;
+  font-family: cursive;
+  color: #eb2550;
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 110%;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #cdb8e0;
+  border-radius: 20px;
 }
 
 button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
+  background-color: #f329b7;
+  color: rgb(29, 20, 25);
+  margin-top: 20px;;
+  padding: 15px;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 17px;
+  font-size: 25px;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #5fc5bd;
 }
 
 ul {
@@ -92,17 +89,19 @@ ul {
 }
 
 li {
-  background-color: #f9f9f9;
-  margin-bottom: 8px;
-  padding: 12px;
-  border-radius: 4px;
+  background-color: #dbdcec;
+  width: 110%;
+  padding: 5px;
+  margin: 12px;
+  border-radius: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 20px;
 }
 
 li:hover {
-  background-color: #f0f0f0;
+  background-color: #c08383;
 }
 
 .delete-btn {
@@ -119,7 +118,17 @@ li:hover {
   background-color: #e53935;
 }
 
-.completed {
-  text-decoration: line-through;
-  color: #ee2626;
-} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
